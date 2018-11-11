@@ -1,0 +1,74 @@
+////////
+////
+//// Home
+////
+///////
+
+@media screen and (max-width: 675px){
+
+  //Navigation
+  .wrapper-navigation{
+
+  .item-name{
+    display: none;
+  }
+
+  .item-name-min{
+    width: 75px;
+    opacity: 1;
+    display: block;
+    position: absolute;
+    float: left;
+    z-index: 999;
+  }
+}
+  //footer
+
+  .social{
+    display: block;
+    text-align: center;
+    height: 100%;
+    padding-bottom: 30px;
+  }
+
+  a.social-list{
+    display: block;
+    margin: 20px 0;
+  }
+
+////////
+////
+//// Infos
+////
+///////
+
+  //infos
+
+
+  .wrapper-navigation-second{
+  margin-left: 5%;
+
+  .title-infos{
+    height: 120px;
+    line-height: 120px;
+    margin-left: 0;
+    float: left;
+  }
+}
+  .paragraph-propos{
+    .paragraph-titre-propos, .paragraph-text-propos{
+      float: none;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+  .paragraph-contact{
+    .paragraph-titre-contact, .paragraph-text-contact{
+      float: none;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+
+}

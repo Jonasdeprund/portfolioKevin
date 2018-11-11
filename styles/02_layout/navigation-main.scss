@@ -1,0 +1,52 @@
+
+/* ---  --- */
+
+/* --- NAVIGATION MAIN --- */
+
+/* ---  --- */
+
+.wrapper-navigation{
+  position: fixed;
+  z-index: 999!important;
+  width: 100vw;
+  z-index: 1;
+  padding: 30px;
+  transition: all 500ms ease-in-out;
+
+  ul{
+    position: relative;
+    height: 100%;
+  }
+
+  .item-name{
+    position: absolute;
+    float: left;
+  }
+
+  .item-name-min{
+    opacity: 0;
+    position: absolute;
+    float: left;
+    z-index: 999;
+    transition: all 500ms ease-in-out;
+  }
+  .item-infos{
+    display: absolute;
+    float: right;
+    padding-right: 20px;
+  }
+
+}
+
+.wrapper-navigation.active{
+  background-color: #ffffff;
+
+  .item-name{
+    opacity: 0;
+  }
+
+  .item-name-min{
+    width: 75px;
+    opacity: 1;
+  }
+}

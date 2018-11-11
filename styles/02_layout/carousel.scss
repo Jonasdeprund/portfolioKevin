@@ -1,0 +1,73 @@
+////////
+////
+//// wrapper-container
+////
+///////
+
+/* caroussel */
+
+.wrapper-container-index{
+  max-width: 1200px;
+  margin: 0 auto 100px auto;
+  width: 90%;
+}
+
+.projet{
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+}
+
+.carousel{
+  position: relative;
+}
+
+.carousel-prev, .carousel-next{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.carousel-next{
+  background-color: rgba(0, 0, 0, 0);
+  right: 15px;
+}
+
+.carousel-prev{
+  background-color: rgba(0, 0, 0, 0);
+  z-index: 2;
+  left: 15px;
+}
+
+.info-project{
+  margin-top: 30px;
+}
+
+.slick-dotted.slick-slider {
+  margin-bottom: 20px !important;
+}
+
+.slick-dots {
+  bottom: -40px !important;
+}
+
+.carousel-prev, .carousel-next{
+  outline: none;
+}
+
+
+.pagination-project{
+  float: right;
+}
+
+.paragraph-project{
+  width: 90%;
+}
+
+
+.images{
+  width: 100%;
+}

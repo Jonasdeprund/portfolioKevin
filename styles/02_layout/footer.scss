@@ -1,0 +1,53 @@
+////////
+////
+//// Footer
+////
+///////
+
+.footer{
+  width: 100vw;
+  background-color: $red;
+
+  .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 140px 0 80px 0;
+
+  .icon-right{
+    position: relative;
+    margin: 0 30px;
+    width: 625px;
+    }
+
+  .icon-left{
+    position: relative;
+    margin: 0 30px;
+    width: 625px;
+  }
+ }
+}
+
+
+////////
+////
+//// Social
+////
+///////
+
+
+.social{
+  height: 80px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  a.social-list{
+    margin: 0 40px;
+    transition: all ease-in-out 200ms;
+  }
+  a.social-list:hover{
+    color: white;
+  }
+}
